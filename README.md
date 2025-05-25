@@ -21,11 +21,11 @@
     ```bash
     pip install -r requirements.txt
     ```
-2. Настраиваем подключение к базе данных. Создаём базу данных и прописываем:
+2. Настраиваем подключение к базе данных. Создаём базу данных и прописываем переменные окружения:
     ``` bash
-    $env:DATABASE_NAME = "db_name"
-    $env:DATABASE_USERNAME = "name"
-    $env:DATABASE_PASSWORD = "password"
+    DATABASE_NAME = "db_name"
+    DATABASE_USERNAME = "name"
+    DATABASE_PASSWORD = "password"
     ```
 3. Применяем миграции
     ```bash
