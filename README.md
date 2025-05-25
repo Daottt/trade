@@ -10,7 +10,7 @@
 1. Клонируем репозиторий
     ```bash
     git clone https://github.com/Daottt/trade.git
-    cd secrets
+    cd trade
     ```
 2. Запускаем контейнеры
     ```bash
