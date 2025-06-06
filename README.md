@@ -43,6 +43,6 @@
 ### Тесты
 Для запуска тестов
 ```bash
-dotnet test
+manage.py test
 ```
 
